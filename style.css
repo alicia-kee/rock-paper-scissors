@@ -35,7 +35,7 @@ button:hover{
     color: red;
 }
 
-#scores, #result, #winner {
+#result, #winner {
     display: flex;
     justify-content: center;
     margin: 15px;
@@ -79,4 +79,5 @@ button:hover{
     margin: 8px;
     font-size: 20px;
     font-family: "Inconsolata", sans-serif;
+    color:#ff645c;
 }
