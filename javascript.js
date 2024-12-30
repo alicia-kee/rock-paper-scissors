@@ -28,7 +28,7 @@ function playGame(){
     function playRound(compChoice, humanChoice, resultContainer, scoreContainer, winnerContainer){
         if(compChoice==="rock"){
             if(humanChoice==="rock"){
-                resultContainer.textContent = "Tie! You and the computer both chose Rock.";
+                resultContainer.textContent = "Tie! You both chose Rock.";
             }else if(humanChoice==="paper"){
                 resultContainer.textContent = "You win! Paper beats Rock.";
                 humanScore++;
@@ -42,7 +42,7 @@ function playGame(){
                 resultContainer.textContent = "You lose! Paper beats Rock.";
                 computerScore++;
             }else if(humanChoice==="paper"){
-                resultContainer.textContent = "Tie! You and the computer both chose Paper.";
+                resultContainer.textContent = "Tie! You both chose Paper.";
             }else if(humanChoice==="scissors"){
                 resultContainer.textContent = "You win! Scissors beats Paper.";
                 humanScore++;
@@ -56,7 +56,7 @@ function playGame(){
                 resultContainer.textContent = "You lose! Scissors beats Paper.";
                 computerScore++;
             }else if(humanChoice==="scissors"){
-                resultContainer.textContent = "Tie! You and the computer both chose Scissors.";
+                resultContainer.textContent = "Tie! You both chose Scissors.";
             }
         }
 
