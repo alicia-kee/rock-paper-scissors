@@ -14,24 +14,29 @@
     <div class="game-rules">Play against the computer, first one to 5 points wins!</div>
 
     <div class="chosen-container">
-        <div class="player-choice"></div>
-        <div class="comp-choice"></div>
+        <div class="player-container">
+            <img class="player-img">
+            <div class="player-score">Player: 0</div>
+        </div>
+        <div class="comp-container">
+            <img class="comp-img">
+            <div class="comp-score">Computer: 0</div>
+        </div>
     </div>
 
     <div class="buttons-container">
         <button id="rock">
-            <img src="./images/rock.jpg" width="160" height="160">
+            <img src="./images/rock.jpg" width="140" height="140">
         </button>
         <button id="paper">
-            <img src="./images/paper.jpg" width="160" height="160">
+            <img src="./images/paper.jpg" width="140" height="140">
         </button>
         <button id="scissors">
-            <img src="./images/scissors.jpg" width="160" height="160">
+            <img src="./images/scissors.jpg" width="140" height="140">
         </button>
     </div>
    
     <div id="result"></div>
-    <div id="scores"></div>
     <div id="winner"></div>
 
     <script src="javascript.js"></script>
