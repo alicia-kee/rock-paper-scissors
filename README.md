@@ -1,5 +1,5 @@
 # rock-paper-scissors
-An interactive rock paper scissors game played against the computer on a web page. 
+An interactive rock paper scissors game played against the computer on a web page. Made with The Odin Project.
 
 ## How It's Made
 Tech Used: JavaScript, HTML, and CSS.
