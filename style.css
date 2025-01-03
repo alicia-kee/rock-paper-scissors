@@ -81,3 +81,20 @@ button:hover{
     font-family: "Inconsolata", sans-serif;
     color:#ff645c;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 55px;
+    padding: 10px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.attribute{
+    font-size:8px;
+    margin: 8px;
+}
